@@ -16,6 +16,8 @@
 		8D4550FE286EBC0E009EB31F /* MyGreeterDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4550FD286EBC0E009EB31F /* MyGreeterDemoTests.swift */; };
 		8D455108286EBC0E009EB31F /* MyGreeterDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D455107286EBC0E009EB31F /* MyGreeterDemoUITests.swift */; };
 		8D45510A286EBC0E009EB31F /* MyGreeterDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D455109286EBC0E009EB31F /* MyGreeterDemoUITestsLaunchTests.swift */; };
+		8D455117286ECF05009EB31F /* MyGreeterClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D455116286ECF05009EB31F /* MyGreeterClient.swift */; };
+		8D455118286ECF05009EB31F /* MyGreeterClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D455116286ECF05009EB31F /* MyGreeterClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		8D455103286EBC0E009EB31F /* MyGreeterDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyGreeterDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D455107286EBC0E009EB31F /* MyGreeterDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGreeterDemoUITests.swift; sourceTree = "<group>"; };
 		8D455109286EBC0E009EB31F /* MyGreeterDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGreeterDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8D455116286ECF05009EB31F /* MyGreeterClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGreeterClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +105,7 @@
 				8D4550E6286EBC0B009EB31F /* AppDelegate.swift */,
 				8D4550E8286EBC0B009EB31F /* SceneDelegate.swift */,
 				8D4550EA286EBC0B009EB31F /* ViewController.swift */,
+				8D455116286ECF05009EB31F /* MyGreeterClient.swift */,
 				8D4550EC286EBC0B009EB31F /* Main.storyboard */,
 				8D4550EF286EBC0E009EB31F /* Assets.xcassets */,
 				8D4550F1286EBC0E009EB31F /* LaunchScreen.storyboard */,
@@ -261,6 +265,7 @@
 				8D4550EB286EBC0B009EB31F /* ViewController.swift in Sources */,
 				8D4550E7286EBC0B009EB31F /* AppDelegate.swift in Sources */,
 				8D4550E9286EBC0B009EB31F /* SceneDelegate.swift in Sources */,
+				8D455117286ECF05009EB31F /* MyGreeterClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D4550FE286EBC0E009EB31F /* MyGreeterDemoTests.swift in Sources */,
+				8D455118286ECF05009EB31F /* MyGreeterClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

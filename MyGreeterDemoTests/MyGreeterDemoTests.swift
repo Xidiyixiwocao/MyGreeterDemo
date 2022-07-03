@@ -17,7 +17,30 @@ class MyGreeterDemoTests: XCTestCase {
     override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
-
+    func testGreeterCreated() {
+        let greeter = MyGreeterClient()
+        XCTAssertNotNil(greeter)
+    }
+    func testGreetingMessage(){
+        let greeter = MyGreeterClient()
+        let greetMessage = greeter.greet()
+        let df = DateFormatter()
+        df.dateFormat = "HH"
+        let dateString = df.string(from: Date())
+        let hour:Int? = Int(dateString)
+        if let greethour = hour {
+            if(greethour>6 && greethour<12){
+                XCTAssertEqual(greetMessage, "Good Morining")
+            }else if(greethour>12&&greethour<18){
+                XCTAssertEqual(greetMessage, "Good AfterNoon1")
+            }else{
+                XCTAssertEqual(greetMessage, "Good Evening")
+            }
+        }else{
+            XCTAssertEqual(greetMessage, "Good Day")
+        }
+        
+    }
     func testExample() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.

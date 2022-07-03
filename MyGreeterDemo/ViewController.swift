@@ -11,6 +11,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let greet:MyGreeterClient = MyGreeterClient()
+        let str = greet.greet()
+        print(str)
         // Do any additional setup after loading the view.
     }
 
